@@ -42,19 +42,18 @@
 import os
 import sys
 REPORT_PATH = os.path.join(os.path.split(os.path.dirname(__file__))[0],'reports.html')
-print(REPORT_PATH)
+# print(REPORT_PATH)
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(path)
+# print(path)
 sys.path.insert(0, path)
-from configs.setting import TESTCASE_PATH
-# from configs.setting import REPORT_PATH
 import unittest
 from libs import HTMLTestRunnerNew
 import time
 from configs.sendemail import *
-# REPORT_PATH="/Users/wangna/Downloads/API_NEWTest/reports"
+# TESTCASE_PATH=os.path.join(os.path.split(os.path.dirname(__file__)[0]),'cases')
+TESTCASE_PATH = os.path.join(os.path.dirname(__file__),'cases')
+print(TESTCASE_PATH)
 suit = unittest.defaultTestLoader.discover(TESTCASE_PATH, pattern='*.py')
-
 if __name__ == '__main__':
     # now = time.strftime("%Y-%m-%d_%H_%M_%S")
     fp = open(REPORT_PATH, 'wb')
