@@ -80,6 +80,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="APITest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/configs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/configs/setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for cases.test_assert_sy_tiezi.Test_adidtieziself.test_adidtieziself" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="APITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +115,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_01_开机.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/test_01_开机.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_03_首页新闻.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,34 +140,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/test_03_首页新闻.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_04_社区关注列表.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="APITest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/test_04_社区关注列表.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_05_步行街主干道.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="APITest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/test_05_步行街主干道.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -155,17 +162,17 @@
       <item itemvalue="Python.sendemail" />
       <item itemvalue="Python tests.Unittests for cases.test_assert_sy_tiezi.Test_adidtieziself.test_adidtieziself" />
       <item itemvalue="Python tests.Unittests in test_assert_sy_tiezi.py" />
-      <item itemvalue="Python tests.Unittests in test_04_社区关注列表.py" />
-      <item itemvalue="Python tests.Unittests in test_05_步行街主干道.py" />
       <item itemvalue="Python tests.Unittests in test_03_首页新闻.py" />
+      <item itemvalue="Python tests.Unittests in test_01_开机.py" />
+      <item itemvalue="Python.setting" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_test" />
+        <item itemvalue="Python.setting" />
+        <item itemvalue="Python tests.Unittests in test_01_开机.py" />
         <item itemvalue="Python tests.Unittests in test_03_首页新闻.py" />
         <item itemvalue="Python.sendemail" />
-        <item itemvalue="Python tests.Unittests in test_04_社区关注列表.py" />
-        <item itemvalue="Python tests.Unittests in test_05_步行街主干道.py" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +194,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/run_test.py</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
