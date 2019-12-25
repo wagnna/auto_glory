@@ -129,7 +129,7 @@ class Test_首页帖子(unittest.TestCase):
                 do_logger.info("\n{:=^40s}".format("ress"))
                 self.sheet[('G' + str(i + 1))] = ad_code
                 # self.sheet[('E' + str(i + 1))] = materid
-                self.data.save("/Users/wangna/Downloads/API_NEWTest/datas/case2.xlsx")
+                self.data.save(file_name)
                 print(values[i]['casename'] + "不是品牌广告，返回adcode值是：" + str(ad_code) + ",dsp:" + str(dsp))
 
             elif ress['ad']:
