@@ -64,9 +64,9 @@ class Test_首页帖子(unittest.TestCase):
                 ad_code =ress['ad_code']
                 res_sucai_id = ress['ad']['id']
                 self.sheet[('F' + str(i + 1))] = res_sucai_id
-                self.data.save("/Users/wangna/Downloads/API_NEWTest/datas/case2.xlsx")
+                self.data.save(file_name)
                 self.sheet[('G' + str(i + 1))] = ad_code
-                self.data.save("/Users/wangna/Downloads/API_NEWTest/datas/case2.xlsx")
+                self.data.save(file_name)
                 hupu_ad_type = ress['hupu_ad_type']
                 # lp = ress['ad']['lp']
                 # brand_name = ress['ad']['brand_name']
