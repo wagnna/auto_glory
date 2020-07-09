@@ -68,6 +68,6 @@ if __name__ == '__main__':
     print(fp)
     print("生成报告")
     time.sleep(50)
-    send_mail(REPORT_PATH)
+#     send_mail(REPORT_PATH)
     print("发送成功")
 
