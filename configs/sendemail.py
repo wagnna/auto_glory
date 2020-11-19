@@ -14,7 +14,7 @@ def send_mail(file_new):
     mail_from='1415711435@qq.com'#邮件发送地址
     #mail_to='xupeiqing@artbloger.com'#邮件接收地址
     # mail_to='wangna@hupu.com,1415711435@qq.com,linke@hupu.com,wangmengdi@hupu.com,liuyanyun@hupu.com'#邮件接收地址
-    mail_to_user =['1415711435@qq.com','wangna@hupu.com']
+    mail_to_user =['1415711435@qq.com']
     mail_to = ','.join(mail_to_user)
     print(mail_to)
     # [x.encode('utf-8') for x in mail_to]

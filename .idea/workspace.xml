@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03482682-a692-4e78-8b00-010d69203a2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/sendemail.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/sendemail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564757536611</updated>
       <workItem from="1605787454717" duration="33000" />
+      <workItem from="1605787912261" duration="12000" />
     </task>
     <servers />
   </component>
