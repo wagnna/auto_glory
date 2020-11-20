@@ -54,20 +54,20 @@ from configs.sendemail import *
 TESTCASE_PATH = os.path.join(os.path.dirname(__file__),'cases')
 print(TESTCASE_PATH)
 suit = unittest.defaultTestLoader.discover(TESTCASE_PATH, pattern='*.py')
-if __name__ == '__main__':
-    # now = time.strftime("%Y-%m-%d_%H_%M_%S")
-    fp = open(REPORT_PATH, 'wb')
-    runner = HTMLTestRunnerNew.HTMLTestRunner(
-        stream=fp,
-        title=u'接口测试报告',
-        description=u'测试报告地址',
-        tester="wangna"
-    )
-    runner.run(suit)
-    fp.close()
-    print(fp)
-    print("生成报告")
-    time.sleep(50)
-    send_mail(REPORT_PATH)
-    print("发送成功")
+# if __name__ == '__main__':
+    # # now = time.strftime("%Y-%m-%d_%H_%M_%S")
+    # fp = open(REPORT_PATH, 'wb')
+    # runner = HTMLTestRunnerNew.HTMLTestRunner(
+    #     stream=fp,
+    #     title=u'接口测试报告',
+    #     description=u'测试报告地址',
+    #     tester="wangna"
+    # )
+    # runner.run(suit)
+    # fp.close()
+    # print(fp)
+    # print("生成报告")
+    # time.sleep(50)
+    # send_mail(REPORT_PATH)
+    # print("发送成功")
 
