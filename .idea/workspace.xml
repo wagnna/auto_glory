@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03482682-a692-4e78-8b00-010d69203a2a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/configs/sendemail.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/sendemail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,9 +167,9 @@
       <item itemvalue="Python.sendemail" />
       <item itemvalue="Python.setting" />
       <item itemvalue="Python tests.Unittests for cases.test_assert_sy_tiezi.Test_adidtieziself.test_adidtieziself" />
-      <item itemvalue="Python tests.Unittests in test_assert_sy_tiezi.py" />
-      <item itemvalue="Python tests.Unittests in test_03_首页新闻.py" />
       <item itemvalue="Python tests.Unittests in test_01_开机.py" />
+      <item itemvalue="Python tests.Unittests in test_03_首页新闻.py" />
+      <item itemvalue="Python tests.Unittests in test_assert_sy_tiezi.py" />
     </list>
     <recent_temporary>
       <list>
@@ -193,6 +193,7 @@
       <updated>1564757536611</updated>
       <workItem from="1605787454717" duration="33000" />
       <workItem from="1605787912261" duration="12000" />
+      <workItem from="1605847298060" duration="140000" />
     </task>
     <servers />
   </component>
