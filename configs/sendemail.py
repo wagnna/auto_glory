@@ -14,16 +14,16 @@ def send_mail(file_new):
     mail_from='1415711435@qq.com'#邮件发送地址
     #mail_to='xupeiqing@artbloger.com'#邮件接收地址
     # mail_to='wangna@hupu.com,1415711435@qq.com,linke@hupu.com,wangmengdi@hupu.com,liuyanyun@hupu.com'#邮件接收地址
-    mail_to_user =['1415711435@qq.com']
-    mail_to = ','.join(mail_to_user)
-    print(mail_to)
+    # mail_to_user =['1415711435@qq.com']
+    # mail_to = ','.join(mail_to_user)
+    # print(mail_to)
     # [x.encode('utf-8') for x in mail_to]
     f = open(file_new,'rb')
     mail_body = f.read()
     f.close()
     msg=MIMEText(mail_body,_subtype='html',_charset='UTF-8')
     msg['from']=mail_from
-    msg['to']=mail_to
+    # msg['to']=mail_to
     msg['Subject']=u"hupu自动化报告"
     msg['Accept-Language']='zh-CN'
     # msg['Accept-Charset'] = 'ISO-8859-1,utf-8'
@@ -34,7 +34,7 @@ def send_mail(file_new):
     smtp.login(mail_from,'hewsirhbmsqticci')
                # 'rpdhayxdwuqxighi')
                #                # 'hewsirhbmsqticci')
-    smtp.sendmail(mail_from,mail_to.split(","),msg.as_string())
+    # smtp.sendmail(mail_from,mail_to.split(","),msg.as_string())
     smtp.quit()
     print("发送邮件成功")
 
